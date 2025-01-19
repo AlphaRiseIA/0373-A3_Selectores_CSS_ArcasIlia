@@ -1,0 +1,73 @@
+/* Regla 1: Selector universal para cambiar la fuente del documento */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Regla 2: Configuración del body */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* Regla 3: Estilo para h1 */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* Regla 4: Color de los elementos con clase selector */
+.selector {
+    color: lightcyan;
+}
+
+/* Regla 5: Estilo para elementos con clase selectors */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* Regla 6: Estilo para el id universal */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* Regla 7: Estilo combinado para h2 con clase selector y con id universal */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* Regla 8: Estilo para elementos span */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* Regla 9: Enlaces dentro de li sin subrayado */
+li > a {
+    text-decoration: none;
+}
+
+/* Regla 10: Estilo para h3 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* Regla 11: Estilo para div dentro de gallery */
+#gallery div {
+    width: 100%;
+}
+
+/* Regla 12: Estilo para imágenes */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
